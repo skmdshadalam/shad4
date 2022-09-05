@@ -1,0 +1,101 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body {
+background-color:rgb(69, 4, 4); ;
+
+}
+#admin-box {
+    background-color:brown;
+    color: rgb(69, 4, 4);
+    width: 50%;
+    text-align: center;
+    margin: 10% auto 0px;
+padding: 10px;
+border-radius: 10px;
+box-shadow: 0px 0px 5px rgb(180, 21, 21);
+/* background-color: transparent; */
+
+}
+#admin-box h1 {
+font-size: 30pt;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+margin: 20px;
+
+}
+form{
+margin: 30px 0px;
+
+}
+label,input{
+display: block;
+}
+label{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+width: 50%;
+margin: 5px auto;
+padding: 10px;
+background-color: transparent;
+color: rgb(69, 4, 4);
+border: 1px solid rgb(69, 4, 4);
+outline: 0;
+}
+input::placeholder {
+    color: rgb(69, 4, 4);
+    margin: auto;
+}
+
+.button {
+    
+    margin-top: 10px;
+    transition: ease-in-out 0.5s;
+    background-color: brown;
+  color: rgb(69, 4, 4);
+  padding: 10px 117px;
+  text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.button:hover {
+    background-color: rgb(69, 4, 4);
+    color: brown;
+    
+}
+input[type="reset"] {
+    font-size: 20px;
+    margin-top: 10px;
+    transition: ease-in-out 0.5s;
+}
+input[type="reset"]:hover{
+    background-color: rgb(69, 4, 4);
+    color: brown;
+}
+
+.p-text{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+margin: 10px;
+}
+.p-text a {
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+}
+.select {
+    color: rgb(69, 4, 4);
+    background-color: brown;
+    margin: 10px 0px 10px;
+}
